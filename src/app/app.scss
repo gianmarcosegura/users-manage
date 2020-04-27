@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+html,
+body {
+	height: 100vh;
+	margin: 0;
+	font-family: 'Sen', sans-serif;
+	#root {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		a {
+			cursor: pointer;
+			color: inherit;
+			text-decoration: none;
+		}
+		.waning-icon {
+			margin-right: 5px;
+			width: 0.8rem;
+		}
+		.buttonUi {
+			display: block;
+			width: 100%;
+			margin-top: 20px !important;
+		}
+		.MuiIconButton-root {
+			position: absolute;
+			top: 0;
+			z-index: 2;
+			&.goBackButton {
+				left: 0;
+			}
+			&.logOutButton {
+				right: 0;
+			}
+			.MuiSvgIcon-root {
+				color: #ffffff;
+				@media only screen and (max-width: 768px) {
+					font-size: 35px;
+				}
+			}
+		}
+		.MuiGrid-root > .MuiGrid-item {
+			margin: 0 5px;
+			@media only screen and (max-width: 768px) {
+				margin: 0 2px;
+			}
+		}
+		.usersTitle {
+			@media only screen and (max-width: 768px) {
+				text-align: left;
+			}
+		}
+		.userAvatar {
+			width: 128px;
+			height: 128px;
+			border-radius: 50%;
+			border: 1px solid white;
+		}
+		.errorFormMessage {
+			display: flex;
+			padding: 5px;
+			color: #f50057;
+			font-size: 13px;
+		}
+	}
+}

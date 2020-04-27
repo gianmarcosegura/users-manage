@@ -1,0 +1,79 @@
+{
+	"name": "users-management",
+	"version": "1.0.0",
+	"private": true,
+	"author": "Gianmarco Segura Cordova",
+	"email": "gianmarco0747@gmail.com",
+	"dependencies": {
+		"@material-ui/core": "^4.9.12",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/lab": "^4.0.0-alpha.51",
+		"@testing-library/jest-dom": "4.2.4",
+		"@testing-library/react": "9.5.0",
+		"@testing-library/user-event": "7.2.1",
+		"axios": "0.19.2",
+		"history": "4.10.1",
+		"node-sass": "4.13.1",
+		"prop-types": "15.7.2",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-hook-form": "^5.2.0",
+		"react-redux": "7.2.0",
+		"react-router-dom": "5.1.2",
+		"react-scripts": "3.4.1",
+		"redux": "4.0.5",
+		"redux-logger": "4.0.0",
+		"redux-thunk": "2.3.0",
+		"styled-components": "5.0.1",
+		"styled-theming": "2.2.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint": "eslint src/**/*.{js,jsx}",
+		"lint:write": "eslint src/**/*.{js,jsx} --fix",
+		"prettier": "prettier --check src/**/*.{js,jsx,json,css,scss}",
+		"prettier:write": "prettier --check --write src/**/*.{js,jsx,json,css,scss}"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint": "6.8.0",
+		"eslint-config-airbnb": "18.1.0",
+		"eslint-config-prettier": "6.10.1",
+		"eslint-plugin-import": "2.20.2",
+		"eslint-plugin-jsx-a11y": "6.2.3",
+		"eslint-plugin-prettier": "3.1.2",
+		"eslint-plugin-react": "7.19.0",
+		"husky": "4.2.3",
+		"lint-staged": "10.0.10",
+		"prettier": "2.0.2",
+		"pretty-quick": "2.0.1"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{js,jsx}": [
+			"pretty-quick --staged",
+			"eslint src/ --fix"
+		]
+	}
+}
