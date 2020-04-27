@@ -27,3 +27,7 @@ He añadido la librería Husky. Esta librería usa git hooks y en el hook "preco
 
 He utilizado styled-componentes, sass y tambíen he adaptado la aplicación a dispositivos móviles.
 He añadido unos botones en la parte superior de la aplicación para poder cambiar los temas de la aplicación.
+
+### Más Información
+
+Añadido un markdown sobre prettier y las reglas que le he aplicado explicando que hace cada regla.
