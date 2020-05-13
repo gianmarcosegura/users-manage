@@ -1,7 +1,3 @@
-# Buenos días
-
-Os adjunto la prueba para la posición de desarrollador Front-End.
-
 ## Comandos:
 
 - `npm run lint` -> Ejecuta ESLint con la configuración situada en el archivo .eslintrc extendiendo las reglas de airbnb
