@@ -1,3 +1,9 @@
+# Uso:
+
+1. Clonar repositorio
+2. Instalar las dependencias ('npm install' en la terminal)
+3. Lanzar el servidor ('npm run start' en la terminal)
+
 ## Comandos:
 
 - `npm run lint` -> Ejecuta ESLint con la configuración situada en el archivo .eslintrc extendiendo las reglas de airbnb
